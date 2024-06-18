@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* vertically center */
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+ul li .delivery{
+    padding-bottom: 5px;
+    /* align-items: center; */
+}
+.search{
+    height: 30px;
+    width: 500px;
+}
+.items{
+    /* display: inline; */
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.indi_item{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .sports{
+    text-align: center;
+} */
+
+.cricket_bat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.racket{
+    display: inline;
+    padding: 30px 30px;
+}
+.kit_bag{
+    display: inline;
+    padding: 30px 30px;
+}
+.football{
+    display: inline;
+    padding: 30px 30px;
+}
+.cricket_bat{
+    display: inline;
+    padding: 30px 30px;
+}
+
